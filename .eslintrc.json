@@ -1,0 +1,7 @@
+{
+  "extends": ["next/core-web-vitals"],
+  "rules": {
+    "no-alert": "error",
+    "id-length": ["error", { "max": 12 }]
+  }
+}

@@ -5,11 +5,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
     "lint": "next lint",
-    "test": "vitest",
-    "test:ui": "vitest --ui",
-    "test:coverage": "vitest --coverage"
+    "lint:fix": "next lint --fix",
+    "test": "vitest"
   },
   "dependencies": {
     "next": "^14.0.0",
@@ -23,11 +21,8 @@
     "@vitejs/plugin-react": "^4.0.0",
     "eslint": "^8.57.0",
     "eslint-config-next": "^14.0.0",
-    "@eslint/eslintrc": "^2.1.0",
     "typescript": "^5.0.0",
     "vitest": "^1.0.0",
-    "@vitest/ui": "^1.0.0",
-    "@vitest/coverage-v8": "^1.0.0",
     "jsdom": "^23.0.0"
   }
 }
