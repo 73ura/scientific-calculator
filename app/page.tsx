@@ -1,4 +1,4 @@
-import Calculator from '../Calculator'
+import { Calculator } from '../components/calculator'
 
 export default function Home() {
   return (

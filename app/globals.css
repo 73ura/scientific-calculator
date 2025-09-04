@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -17,7 +21,9 @@ body {
 
 body {
   color: #333;
-  background-color: #f5f5f5;
+  background: #ffffff;
+  min-height: 100vh;
+  position: relative;
 }
 
 a {
@@ -30,3 +36,5 @@ a {
     color-scheme: dark;
   }
 }
+
+
