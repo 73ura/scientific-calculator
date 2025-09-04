@@ -14,7 +14,6 @@ const eslintConfig = [
   {
     rules: {
       "no-alert": "error",
-      "id-length": ["error", { max: 12 }],
     },
   },
 ];
